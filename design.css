@@ -60,8 +60,9 @@ li{
 .img-text{
    width: 360px;
    position: absolute;
-   font-size: 20px;
+   font-size: 18px;
    margin: 50px;
+   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .head-button{
     background-color: #0067b8;
@@ -77,9 +78,24 @@ li{
 .icon-group{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 24px;
     margin: 28px;
     gap: 36px;
     cursor: pointer;
     
+}
+.ul-design{
+    display: flex;
+    margin: 6em;
+}
+.li-group{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    row-gap: 12px;
+}
+.li-group img{
+    width: 48px;
 }
