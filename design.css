@@ -1,0 +1,28 @@
+.navbar-design {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 80px;
+}
+.text-design {
+  display: flex;
+  align-items: end;
+  gap: 36px;
+}
+.logo {
+  width: 152px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #262626;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline 2px;
+}
+.fa-solid{
+    padding-left: 8px;
+    
+}
