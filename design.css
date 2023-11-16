@@ -26,3 +26,23 @@ a:hover {
     padding-left: 8px;
     
 }
+.footer-design{
+    display: flex;
+    color: #616161;
+    align-items: baseline; 
+    padding: 12px 80px; 
+   
+}
+ul{
+    list-style-type: none;
+    margin:8px 12px 0px 0px;
+    padding: 0px;
+}
+li{
+    color:#616161;
+    font-size: 16px;
+}
+.head{
+    font-size: 20px;
+    font-weight: 600;   
+}
