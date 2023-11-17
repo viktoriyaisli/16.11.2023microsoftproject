@@ -19,9 +19,9 @@ a {
     sans-serif;
   cursor: pointer;
 }
-a:hover {
+/* a:hover {
   text-decoration: underline 2px;
-}
+} */
 .fa-solid{
     padding-left: 8px;
     
@@ -79,7 +79,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16px;
     margin: 28px;
     gap: 36px;
     cursor: pointer;
@@ -88,14 +88,52 @@ li{
 .ul-design{
     display: flex;
     margin: 6em;
+ 
 }
 .li-group{
     display: flex;
+    flex: auto;
     flex-direction: column;
-    flex: 1 1 auto;
     align-items: center;
-    row-gap: 12px;
+    
+    
+    
+}
+.color{
+  font-size: 20px;
+  color: #0067b8;
+  text-decoration: underline ;
+  font-weight: 600;
 }
 .li-group img{
     width: 48px;
+}
+.midline-edit{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+ 
+}
+.midline-edit-ul{
+  display: flex;
+  gap: 36px;
+  padding: 12px 80px;
+  margin-bottom:18em ;
+}
+.contents{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:20px;
+}
+.button-line{
+  border: none;
+  text-align: start;
+  font-size: 20px;
+  color:#0067b8 ;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.button-line:hover{
+  text-decoration: underline ;
+  cursor: pointer;
 }
