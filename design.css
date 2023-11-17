@@ -32,7 +32,7 @@ a {
   padding: 12px 80px;
   gap: 36px;
   justify-content: space-between;
-  margin-top: 20em;
+  margin-top: 16em;
 }
 ul {
   list-style-type: none;
@@ -61,6 +61,13 @@ li {
   margin: 30px;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+}
+.img-text-btn {
+  color: #000018;
+  font-weight: 600;
+}
+.img-text-btn:hover {
+  text-decoration: underline;
 }
 .head-button {
   background-color: #0067b8;
@@ -94,7 +101,6 @@ li {
 }
 .color {
   font-size: 20px;
-  color: #0067b8;
   text-decoration: underline;
   font-weight: 600;
 }
@@ -110,7 +116,7 @@ li {
   display: flex;
   gap: 36px;
   padding: 12px 80px;
-  margin-bottom: 18em;
+  margin-bottom:2em;
 }
 .contents {
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
@@ -121,7 +127,6 @@ li {
   border: none;
   text-align: start;
   font-size: 20px;
-  color: #0067b8;
   margin-top: 10px;
   font-weight: 600;
 }
@@ -141,4 +146,12 @@ li {
   margin: 160px;
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+}
+.last-line-edit{
+  display: flex;
+  gap: 36px;
+}
+.last-line-head{
+  padding: 12px 80px;
+  margin-top: 2em;
 }
