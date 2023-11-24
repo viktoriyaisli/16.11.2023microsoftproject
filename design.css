@@ -53,7 +53,6 @@ li {
   width: 100%;
 }
 
-
 .img-text {
   width: 360px;
   position: absolute;
@@ -136,7 +135,6 @@ li {
   position: absolute;
   top: 30%;
   left: 20%;
-
 }
 .last-line-edit {
   display: flex;
@@ -151,147 +149,128 @@ li {
   gap: 36px;
   margin: 12px 40px;
 }
-.img-size{
+.img-size {
   width: 50px;
   height: 50px;
 }
-@media screen and (max-width:1084px) {
-  .img-text{
+@media screen and (max-width: 1084px) {
+  .img-text {
     background-color: white;
     width: 95%;
     top: 350px;
     left: 20px;
-
   }
 }
-@media screen and (max-width:860) {
-  .img-text{
+@media screen and (max-width: 860) {
+  .img-text {
     background-color: white;
     width: 100%;
     top: 350px;
     left: 20px;
-
   }
 }
-@media screen and (max-width:1084px) {
-  .icon-group{
-   margin-top: 170px;
+@media screen and (max-width: 1084px) {
+  .icon-group {
+    margin-top: 170px;
   }
 }
-@media screen and (max-width:925px) {
-  .icon-group{
-   margin-top: 250px;
+@media screen and (max-width: 925px) {
+  .icon-group {
+    margin-top: 250px;
   }
 }
-@media screen and (max-width:734px) {
-  .icon-group{
-   margin-top: 320px;
+@media screen and (max-width: 734px) {
+  .icon-group {
+    margin-top: 320px;
   }
 }
-@media screen and (max-width:608px) {
-  .icon-group{
-   margin-top: 410px;
+@media screen and (max-width: 608px) {
+  .icon-group {
+    margin-top: 410px;
   }
 }
-@media screen and (max-width:400px) {
-  .icon-group{
-   margin-top: 510px;
+@media screen and (max-width: 400px) {
+  .icon-group {
+    margin-top: 510px;
   }
 }
-@media screen and (max-width:300px) {
-  .icon-group{
-   margin-top: 610px;
+@media screen and (max-width: 300px) {
+  .icon-group {
+    margin-top: 610px;
   }
 }
-@media screen and (max-width:1300px) {
-  .midline-edit-ul{
+@media screen and (max-width: 1300px) {
+  .midline-edit-ul {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     margin: 12px 40px;
     margin-bottom: 2em;
   }
 }
-@media screen and (max-width:800px) {
-  .midline-edit-ul{
-    display: grid;
-    grid-template-columns: auto ;
-   
-  }
-}
-@media screen and (max-width:1300px) {
-  .last-line-edit{
-    display: grid;
-    grid-template-columns: auto auto ;
-   
-  }
-}
-@media screen and (max-width:800px) {
-  .last-line-edit{
-    display: grid;
-    grid-template-columns: auto ;
-  }
-}
-@media screen and (max-width:1300px) {
-  .footer-design{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-   
-  }
-}
-@media screen and (max-width:600px) {
-  .footer-design{
+@media screen and (max-width: 800px) {
+  .midline-edit-ul {
     display: grid;
     grid-template-columns: auto;
-   
   }
 }
-@media screen and (max-width:600px) {
-  .social-media{
+@media screen and (max-width: 1300px) {
+  .last-line-edit {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .last-line-edit {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .footer-design {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-design {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .social-media {
     gap: 24px;
-   
   }
 }
-@media screen and (max-width:1162px) {
+@media screen and (max-width: 1162px) {
   .text-design {
     gap: 15px;
     justify-content: center;
   }
-  
 }
-@media screen and (max-width:1162px) {
+@media screen and (max-width: 1162px) {
   .logo {
     width: 120px;
   }
-  
 }
 
-@media screen and (max-width:965px) {
-  .text-design>a {
+@media screen and (max-width: 965px) {
+  .text-design > a {
     color: white;
-  
   }
-  
 }
-@media screen and (max-width:965px) {
-  .fa-basket-shopping{
+@media screen and (max-width: 965px) {
+  .fa-basket-shopping {
     color: black;
-  
   }
-  
 }
-@media screen and (max-width:965px) {
-  .fa-user{
+@media screen and (max-width: 965px) {
+  .fa-user {
     color: black;
-
   }
-  
 }
-@media screen and (max-width:965px) {
-  .navbar-design{
+@media screen and (max-width: 965px) {
+  .navbar-design {
     margin: 12px 0px;
-  
   }
-  
 }
-
-
